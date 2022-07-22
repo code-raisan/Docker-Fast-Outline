@@ -43,7 +43,7 @@ services:
       POSTGRES_DB: outline
 
   storage:
-    image: minio/minio
+    image: tobi312/minio
     env_file: ./docker.env
     ports:
       - "9000:9000"
